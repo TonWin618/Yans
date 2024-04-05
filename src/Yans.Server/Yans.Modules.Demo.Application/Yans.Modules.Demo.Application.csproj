@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Yans.Base.Application\Yans.Base.Application.csproj" />
+    <ProjectReference Include="..\Yans.Base.Infrastructure\Yans.Base.Infrastructure.csproj" />
+    <ProjectReference Include="..\Yans.Modules.Demo.Domain\Yans.Modules.Demo.Domain.csproj" />
+    <ProjectReference Include="..\Yans.Modules.Demo.IntegratingEvents\Yans.Modules.Demo.IntegrationEvents.csproj" />
+  </ItemGroup>
+
+</Project>

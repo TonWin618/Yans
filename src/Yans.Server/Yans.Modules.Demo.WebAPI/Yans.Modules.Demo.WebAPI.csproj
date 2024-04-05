@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Yans.Base.WebAPI\Yans.Base.WebAPI.csproj" />
+    <ProjectReference Include="..\Yans.BuildingBlocks.EventBus.InMemory\Yans.BuildingBlocks.EventBus.InMemory.csproj" />
+    <ProjectReference Include="..\Yans.Modules.Demo.Application\Yans.Modules.Demo.Application.csproj" />
+    <ProjectReference Include="..\Yans.Modules.Demo.Infrastructure\Yans.Modules.Demo.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

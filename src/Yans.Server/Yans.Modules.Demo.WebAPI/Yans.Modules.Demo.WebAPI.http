@@ -1,0 +1,21 @@
+@Yans.Modules.Demo.WebAPI_HostAddress = http://localhost:5155
+
+### GetWeatherByCount
+POST {{Yans.Modules.Demo.WebAPI_HostAddress}}/weather/GetWeatherByCount
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Count": 10
+}
+
+### CreateWeather
+POST {{Yans.Modules.Demo.WebAPI_HostAddress}}/weather/CreateWeather
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Date":"2024-04-06",
+  "TemperatureC": 39,
+  "Summary":"Freezing"
+}
